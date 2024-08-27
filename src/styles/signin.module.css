@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #141414; /* Dark background color */
+  }
+  
+  .signinBox {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+  }
+  
+  .signInButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .codeButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .orText {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .forgotPassword {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .signUpText {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .signUpText a {
+    color: white;
+    text-decoration: none;
+  }
+  
